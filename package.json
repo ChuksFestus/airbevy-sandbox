@@ -1,0 +1,10 @@
+{
+  "name": "airbevy-api",
+  "version": "1.0.0",
+  "description": "airbevy-sandbox",
+  "main": "index.js",
+  "repository": "https://github.com/ChuksFestus/airbevy-sandbox.git",
+  "author": "Chuks Festus <cutogu@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
