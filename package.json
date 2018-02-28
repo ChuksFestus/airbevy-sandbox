@@ -6,5 +6,9 @@
   "repository": "https://github.com/ChuksFestus/airbevy-sandbox.git",
   "author": "Chuks Festus <cutogu@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
 }
