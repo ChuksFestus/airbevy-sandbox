@@ -2,13 +2,21 @@
   "name": "airbevy-api",
   "version": "1.0.0",
   "description": "airbevy-sandbox",
-  "main": "index.js",
+  "main": "app.js",
   "repository": "https://github.com/ChuksFestus/airbevy-sandbox.git",
   "author": "Chuks Festus <cutogu@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && nodemon dist/app.js"
+  },
   "private": true,
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "rimraf": "^2.6.2"
   }
 }
