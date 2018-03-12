@@ -8,8 +8,8 @@
   "license": "MIT",
   "homepage": "https://chuksfestus.github.io/airbevy-sandbox",
   "scripts": {
-    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "start": "json-server --watch db.json"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "private": true,
   "dependencies": {
