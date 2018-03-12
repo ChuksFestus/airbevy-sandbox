@@ -2,13 +2,13 @@
   "name": "airbevy-api",
   "version": "1.0.0",
   "description": "airbevy-sandbox",
-  "main": "app.js",
+  "main": "db.js",
   "repository": "https://github.com/ChuksFestus/airbevy-sandbox.git",
   "author": "Chuks Festus <cutogu@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "start": "npm run build && nodemon dist/app.js"
+    "start": "json-server --watch db.json"
   },
   "private": true,
   "dependencies": {
@@ -17,6 +17,7 @@
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
+    "json-server": "^0.12.1",
     "rimraf": "^2.6.2"
   }
 }
