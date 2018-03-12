@@ -6,7 +6,7 @@
   "repository": "https://github.com/ChuksFestus/airbevy-sandbox.git",
   "author": "Chuks Festus <cutogu@gmail.com>",
   "license": "MIT",
-  "homepage": "http://chuksfestus.github.io/airbevy-sandbox",
+  "homepage": "https://chuksfestus.github.io/airbevy-sandbox",
   "scripts": {
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "start": "json-server --watch db.json"
