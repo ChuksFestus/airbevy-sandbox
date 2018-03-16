@@ -1,16 +1,16 @@
 {
   "posts" : [
     {
-      "companyName": "Google",
-      "companyPic": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_logo.max-2800x2800.png",
+      "companyName": "Lea Verou",
+      "companyPic": "https://s3.amazonaws.com/lanyrd-image-uploads/cropped-profile-photos/18ce1d28af009d86f083d1ad9c356da17b13f06f.jpg",
       "post": "Introducing polymerjs",
       "postPic": "https://www.polymer-project.org/images/logos/p-logo.png",
       "NumLikes": 20,
       "numComments": 2
     },
     {
-      "companyName": "Facebook",
-      "companyPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png",
+      "companyName": "Ire Aderinokun",
+      "companyPic": "http://grafrica.com.ng/wp-content/uploads/2017/03/ire-aderinokun-1024x682.jpg",
       "post":
         "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. ",
       "postPic": "http://static.adweek.com/adweek.com-prod/wp-content/uploads/sites/2/2015/05/FbStartLogo2015.jpg",
@@ -18,8 +18,8 @@
       "NumComments": 6
     },
     {
-      "companyName": "Apple",
-      "companyPic": "http://www.conservapedia.com/images/a/ab/Apple-logo.png",
+      "companyName": "Moyin Adeyemi",
+      "companyPic": "https://pbs.twimg.com/profile_images/954077330758078465/7rjhcMy2_400x400.jpg",
       "post":
         "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. ",
       "postPic": "",
@@ -29,28 +29,47 @@
   ],
   "profile": [
     {
-      "companyName": "facebook",
-      "companyPic": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_logo.max-2800x2800.png",
-      "post": "Introducing polymerjs",
-      "postPic": "https://www.polymer-project.org/images/logos/p-logo.png",
+      "companyName": "Chuks Festus",
+      "companyPic": "https://res.cloudinary.com/hashnode/image/upload/v1499973934/nebekacp4ke7bwimbpb8_cropped.png",
+      "post": "KariXchange Signs Contracts for the NPFL Platform with LMC",
+      "postPic": "https://karixchange.com/wp-content/uploads/2016/11/LMC-COOSalihu-Abubakar-Kari-Xchange-CEO-Eucharia-Amanambu-LMC-ChairmanShehu-Dikko-Rasheed-LMC-Legal-Adviser-Sampson-Ebomhe-1-1-800x578.jpg ",
       "NumLikes": 20,
       "numComments": 2
     },
     {
-      "companyName": "Facebook",
-      "companyPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png",
-      "post": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. ",
-      "postPic": "http://static.adweek.com/adweek.com-prod/wp-content/uploads/sites/2/2015/05/FbStartLogo2015.jpg",
+      "companyName": "Chuks Festus",
+      "companyPic": "https://res.cloudinary.com/hashnode/image/upload/v1499973934/nebekacp4ke7bwimbpb8_cropped.png",
+      "post": "Digital products should be both useful and beautiful. Therefore, our process is focused on understanding user needs and your brand, so that we can meet and exceed people’s functional expectations of your product while delivering a product form that embodies your brand personality and delights users.",
+      "postPic": "https://karixchange.com/wp-content/uploads/2016/10/UX-infographic-800x535.jpg",
       "NumLikes": 5,
       "NumComments": 6
     },
     {
-      "companyName": "Apple",
-      "companyPic": "http://www.conservapedia.com/images/a/ab/Apple-logo.png",
-      "post": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. ",
+      "companyName": "Chuks Festus",
+      "companyPic": "https://res.cloudinary.com/hashnode/image/upload/v1499973934/nebekacp4ke7bwimbpb8_cropped.png",
+      "post": "Nigeria Appoints It Partners for Fantasy Games of League Matches",
       "postPic": "",
       "NumLikes": 15,
       "NumComments": 6
+    }
+  ],
+  "events": [
+    {
+      "eventName": "Abuja Easter Fair",
+      "eventDist": "Space: Minimum of 3x3sqm Indoor Booth (9sqm) @ N30,000.00 per booth Cost includes fascia name, 1 table, 1 Chair, 1 spot light exhibitor. Additional Spaces are available in multiple of 9sqm each.",
+      "startDate": "March 30, 8:00am", 
+      "endDate": "April 2, 5:00pm",
+      "venue": "Abuja International Trade & Convention Center, Km 8, Umar Yar’Adua Express Way, (Airport Road)",
+      "cost": " N30,000.00",
+      "eventImage": "http://www.accinigeria.com/wp-content/uploads/2018/02/Capture.png",
+      "organiser": ""
+    }
+  ],
+  "user": [
+    {
+      "userPic": "https://chuksfestus.github.io/",
+      "userName": "Chuks Festus",
+      "UserIntrest": "Tech"
     }
   ]
 }
